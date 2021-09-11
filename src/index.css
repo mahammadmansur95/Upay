@@ -83,22 +83,22 @@ h6 {
 }
 
 /* ------------------------- Hero section-------------------------------------- */
-header{
+header {
   background-color: var(--bgcolor);
   min-height: 100vh;
   width: 100%;
 }
-.main_hero_container{
+.main_hero_container {
   height: 80vh;
   display: flex;
 }
 
-.main_hero_container h1{
+.main_hero_container h1 {
   text-transform: capitalize;
   font-weight: bolder;
 }
 
-.main_hero_para{
+.main_hero_para {
   font-size: 1.5rem;
   color: var(--text-color);
   margin: 3rem 5rem 0;
@@ -106,15 +106,15 @@ header{
   width: 75%;
 }
 
-.main_hero_container h3{
+.main_hero_container h3 {
   font-weight: lighter;
 }
 
-.input_group{
+.input_group {
   position: relative !important;
 }
 
-.form_control_text{
+.form_control_text {
   position: relative;
   height: 5rem;
   border: none;
@@ -125,7 +125,7 @@ header{
   font-weight: lighter;
 }
 
-.input_group_button{
+.input_group_button {
   position: absolute;
   right: 10%;
   top: 0.5rem;
@@ -142,11 +142,11 @@ header{
 }
 
 /* Right side */
-.main_herosection_images{
+.main_herosection_images {
   position: relative;
 }
 
-.main_herosection_images img{
+.main_herosection_images img {
   width: 60%;
   height: 75%;
   margin-top: 10rem;
@@ -154,7 +154,7 @@ header{
   position: absolute;
 }
 
-.main_herosection_images .main_herosecton_img2{
+.main_herosection_images .main_herosecton_img2 {
   position: absolute;
   width: 50%;
   height: 30%;
@@ -162,18 +162,17 @@ header{
   top: -2%;
 }
 
-
 /*------------------------- Work section --------------------------------*/
-.work_container{
+.work_container {
   width: 80vw;
-  padding:5rem;
-  box-shadow: 0 .4rem 1.2rem rgba(0,0,0,0.1);
+  padding: 5rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
   margin-top: -10rem;
   background-color: #fff;
   border-radius: 0.5rem;
 }
 
-.work_container .main-heading{
+.work_container .main-heading {
   font-size: 3rem;
   font-weight: bolder;
   margin-bottom: 4rem;
@@ -184,12 +183,12 @@ header{
   padding: 0 6rem;
 } */
 
-.work_container .sub-heading{
+.work_container .sub-heading {
   font-size: 2rem;
   font-weight: normal;
 }
 
-.fontawesome_style{
+.fontawesome_style {
   font-size: 2.3rem;
   color: var(--primary-color);
   width: 6rem;
@@ -202,27 +201,26 @@ header{
   margin: 2rem auto;
 }
 
-
 /*--------------------------------- our services -------------------------*/
 
-.our_services img{
- width: 40%;
- height: 75%;
- margin-top: 10rem;
- box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
- border-radius: 1.5rem;
+.our_services img {
+  width: 40%;
+  height: 75%;
+  margin-top: 10rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
+  border-radius: 1.5rem;
 }
 
-.our_services .main-heading{
+.our_services .main-heading {
   font-weight: bolder;
   margin: 3rem 0;
 }
 
-.our_services_info{
+.our_services_info {
   margin-top: 4rem;
 }
 
-.our_services_info .our_services_number{
+.our_services_info .our_services_number {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -234,16 +232,156 @@ header{
   place-items: center;
 }
 
-.our_services_data{
+.our_services_data {
   padding-left: 2rem;
 }
 
-.our_services_data p{
+.our_services_data p {
   margin: 1rem 0;
 }
 
+/*----------------------------- About service container ------------------*/
+.service-main-container {
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
 
+.service-main-container .main-heading {
+  margin: 3rem 0;
+}
 
+.service-main-container .fontawesome_style {
+  text-align: left;
+  margin: 2rem 0;
+}
+
+.work-container-subdiv {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
+}
+
+.work-container-subdiv:hover {
+  background-color: var(--bgcolor);
+  cursor: pointer;
+}
+
+.work-container-subdiv:hover > .fontawesome_style {
+  background-color: #fff;
+}
+
+/* --------------------------------- Contact US Section  
+                        -------------------------------------------------------*/
+.contactus-section {
+  margin: 15rem 0;
+}
+
+.contact-leftside img {
+  min-width: 80%;
+  max-height: 30rem;
+  height: auto;
+}
+
+.contact-input-feild {
+  margin-bottom: 4rem;
+}
+
+.contact-rightside form .form-control {
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  height: 5rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+
+.contact-rightside form .form-check-input {
+  width: 2rem;
+  height: 2rem;
+}
+
+.form-checkbox-style {
+  margin: 4rem 0;
+}
+
+.contact-rightside form .main_hero_para {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 0;
+  font-weight: lighter;
+  width: 75%;
+  padding: 0 2rem;
+}
+
+@media (min-width: 1400px) {
+  .service-container .col-xxl-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .service-container .col-lg-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: 2.5rem auto;
+  }
+}
+
+/* --------------------------------- Footer  Section   
+                        -------------------------------------------------------*/
+
+footer {
+  padding: 5rem 0;
+  background-color: #182334;
+  color: #fff;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+footer li {
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #fff;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+footer li:hover {
+  color: var(--primary-color);
+}
+
+footer .fontawesome_style {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+  background-color: transparent;
+  width: 0rem;
+  height: 0rem;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+footer .fontawesome_style:hover {
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+  color: #fff;
+}
+
+@keyframes rotatefont {
+  0% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+footer .main_hero_para {
+  margin: 0;
+}
 
 /* --------------------------------- responsive media queries  
                         -------------------------------------------------------*/
